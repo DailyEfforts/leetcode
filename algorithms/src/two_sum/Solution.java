@@ -11,7 +11,7 @@ public class Solution {
 		}
 		int index1 = -1;
 		int index2 = -1;
-		final Map<Integer, Integer> map = new HashMap<>();
+		final Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		for (int i = 0; i < nums.length; i++) {
 			final int needed = target - nums[i];
 			if (map.containsKey(needed)) {

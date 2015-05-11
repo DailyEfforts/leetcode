@@ -18,3 +18,6 @@ gen/
 .project
 
 input.txt
+
+.idea/
+*.iml
