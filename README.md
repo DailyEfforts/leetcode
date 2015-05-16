@@ -1,5 +1,4 @@
-# leetcode
-Solutions to algorithms problems on leetcode in Java.
+My solutions to the algorithms problems on [leetcode](https://leetcode.com/).
 
 ---
 
@@ -9,6 +8,7 @@ ID|Problem|Solution
 155|[Mini Stack](https://leetcode.com/problems/min-stack/)|[Java](./algorithms/src/MiniStack.java)
 118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./algorithms/src/pascals_triangle/Solution.java)
 112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./algorithms/src/path_sum/Solution.java)
+100|[Same Tree](https://leetcode.com/problems/same_tree/)|[Java](./algorithms/src/same_tree/Solution.java)
 83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./algorithms/src/remove_duplicates/Solution.java)
 28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Java](./algorithms/src/implement_strstr/Solution.java)
 7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/  https://leetcode.com/problems/reverse-integer/)|[Java](./algorithms/src/reverse_integer/Solution.java)
