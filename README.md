@@ -4,6 +4,7 @@ My solutions to the algorithms problems on [leetcode](https://leetcode.com/).
 
 ID|Problem|Solution
 ---|---|---
+208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Java](./algorithms/src/Trie.java)
 202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Java](./algorithms/src/happy_number/Solution.java)
 155|[Mini Stack](https://leetcode.com/problems/min-stack/)|[Java](./algorithms/src/MiniStack.java)
 118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./algorithms/src/pascals_triangle/Solution.java)
