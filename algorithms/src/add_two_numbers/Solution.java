@@ -1,71 +1,55 @@
 package add_two_numbers;
 
-import java.util.ArrayList;
-import java.util.List;
-
-
-// TODO: Fix `Time Limit Exceeded` issue.
 public class Solution {
-    private List<Integer> list = new ArrayList<Integer>();
-
-    private void push(Integer i) {
-        list.add(i);
-    }
-
-    private boolean isEmpty() {
-        return list.size() == 0;
-    }
-
-    private ListNode pop() {
-        final int size = list.size();
-        if (size > 1) {
-            int value = list.remove(size - 1) + list.remove(size - 2);
-            if (value >= 10) {
-                if (size > 2) {
-                    list.set(size - 3, list.get(size - 3) + 1);
-                } else {
-                    push(1);
-                }
-                value -= 10;
-            }
-            return new ListNode(value);
-        } else if (size == 1) {
-            return new ListNode(1);
-        }
-        return null;
-    }
-
+    final ListNode fakeFirst = new ListNode(-1);
+    ListNode currentNode = fakeFirst;
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        for (; l1 != null && l2 != null; l1 = l1.next, l2 = l2.next) {
-            push(l1.val);
-            push(l2.val);
+        if (l1 == null) {
+            return l2;
         }
-        if (isEmpty()) {
-            return null;
+        if (l2 == null) {
+            return l1;
         }
-        ListNode first = pop();
-        ListNode lastNode = first;
-        while (!isEmpty()) {
-            ListNode x = pop();
-            lastNode.next = x;
-            lastNode = x;
+        int carry = 0;
+        while (l1 != null && l2 != null) {
+            int sum = carry + l1.val + l2.val;
+            carry = sum / 10;
+            currentNode.next = new ListNode(sum % 10);
+            currentNode = currentNode.next;
+            l1 = l1.next;
+            l2 = l2.next;
         }
-        return first;
+        if (l1 != null) {
+            carry = append(l1, carry);
+        }
+        if (l2 != null) {
+            carry = append(l2, carry);
+        }
+        if (carry > 0) {
+            currentNode.next = new ListNode(carry);
+            currentNode = currentNode.next;
+        }
+        return fakeFirst.next;
+    }
+
+    private int append(ListNode src, int carry) {
+        while (src != null) {
+            int sum = carry + src.val;
+            carry = sum / 10;
+            currentNode.next = new ListNode(sum % 10);
+            currentNode = currentNode.next;
+            src = src.next;
+        }
+        return carry;
     }
 
     public static void main(String[] args) {
-        ListNode l11 = new ListNode(2);
-        ListNode l12 = new ListNode(4);
-        ListNode l13 = new ListNode(3);
+        ListNode l11 = new ListNode(9);
+        ListNode l12 = new ListNode(9);
         l11.next = l12;
-        l12.next = l13;
 
-        ListNode l21 = new ListNode(5);
-        ListNode l22 = new ListNode(6);
-        ListNode l23 = new ListNode(4);
-        l21.next = l22;
-        l22.next = l23;
+        ListNode l21 = new ListNode(1);
         Solution solution = new Solution();
         ListNode node = solution.addTwoNumbers(l11, l21);
         while (node != null) {
