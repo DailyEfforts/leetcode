@@ -13,6 +13,7 @@ ID|Problem|Solution
 100|[Same Tree](https://leetcode.com/problems/same_tree/)|[Java](./algorithms/src/same_tree/Solution.java)
 83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./algorithms/src/remove_duplicates/Solution.java)
 28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Java](./algorithms/src/implement_strstr/Solution.java)
+20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](./algorithms/src/valid_parentheses/Solution.java)
 7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/  https://leetcode.com/problems/reverse-integer/)|[Java](./algorithms/src/reverse_integer/Solution.java)
 4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Java](./algorithms/src/median_of_two_sorted_arrays/Solution.java)
 3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Java](./algorithms/src/longest_substring_without_repeating_characters/Solution.java)
