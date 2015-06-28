@@ -13,6 +13,7 @@ ID|Problem|Solution
 100|[Same Tree](https://leetcode.com/problems/same_tree/)|[Java](./algorithms/src/same_tree/Solution.java)
 83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./algorithms/src/remove_duplicates/Solution.java)
 64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](./algorithms/src/minimum_path_sum/Solution.java)
+53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./algorithms/src/maximum_subarraySolution.java)
 28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Java](./algorithms/src/implement_strstr/Solution.java)
 20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](./algorithms/src/valid_parentheses/Solution.java)
 7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/  https://leetcode.com/problems/reverse-integer/)|[Java](./algorithms/src/reverse_integer/Solution.java)
