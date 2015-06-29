@@ -9,6 +9,7 @@ ID|Problem|Solution
 198|[](https://leetcode.com/problems/house-robber/)|[Java](./algorithms/src/house_robber/Solution.java)
 155|[Mini Stack](https://leetcode.com/problems/min-stack/)|[Java](./algorithms/src/MiniStack.java)
 139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./algorithms/src/word_break/Solution.java)
+125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](./algorithms/src/valid_palindrome/Solution.java)
 118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./algorithms/src/pascals_triangle/Solution.java)
 112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./algorithms/src/path_sum/Solution.java)
 100|[Same Tree](https://leetcode.com/problems/same_tree/)|[Java](./algorithms/src/same_tree/Solution.java)
