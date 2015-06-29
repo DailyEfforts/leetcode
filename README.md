@@ -23,3 +23,4 @@ ID|Problem|Solution
 3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Java](./algorithms/src/longest_substring_without_repeating_characters/Solution.java)
 2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](./algorithms/src/add_two_numbers/Solution.java)
 1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](./algorithms/src/two_sum/Solution.java)
+58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](./algorithms/src/length_of_last_word/Solution.java)
