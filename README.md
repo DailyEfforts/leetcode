@@ -4,6 +4,7 @@ My solutions to the algorithms problems on [leetcode](https://leetcode.com/).
 
 ID|Problem|Solution
 ---|---|---
+226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](./algorithms/src/invert_binary_tree/Solution.java)
 208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Java](./algorithms/src/Trie.java)
 202|[Happy Number](https://leetcode.com/problems/happy-number/)|[Java](./algorithms/src/happy_number/Solution.java)
 198|[](https://leetcode.com/problems/house-robber/)|[Java](./algorithms/src/house_robber/Solution.java)
