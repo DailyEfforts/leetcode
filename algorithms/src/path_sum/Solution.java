@@ -1,5 +1,7 @@
 package path_sum;
 
+import common.TreeNode;
+
 public class Solution {
     public boolean hasPathSum(TreeNode root, int sum) {
         if (root == null) {

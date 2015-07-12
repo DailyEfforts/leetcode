@@ -1,5 +1,7 @@
 package same_tree;
 
+import common.TreeNode;
+
 /**
  * Given two binary trees, write a function to check if they are equal or not.<br/>
  * Two binary trees are considered equal if they are structurally identical and the nodes have the same value.

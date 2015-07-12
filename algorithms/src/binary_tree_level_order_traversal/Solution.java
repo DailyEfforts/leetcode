@@ -3,6 +3,8 @@ package binary_tree_level_order_traversal;
 import java.util.ArrayList;
 import java.util.List;
 
+import common.TreeNode;
+
 public class Solution {
 
 	public List<List<Integer>> levelOrder(TreeNode root) {
