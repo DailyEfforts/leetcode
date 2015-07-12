@@ -11,6 +11,7 @@ ID|Problem|Solution
 155|[Mini Stack](https://leetcode.com/problems/min-stack/)|[Java](./algorithms/src/MiniStack.java)
 139|[Word Break](https://leetcode.com/problems/word-break/)|[Java](./algorithms/src/word_break/Solution.java)
 125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](./algorithms/src/valid_palindrome/Solution.java)
+121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Java](./algorithms/src/best_time_to_buy_and_sell_stock/Solution.java)
 118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./algorithms/src/pascals_triangle/Solution.java)
 112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./algorithms/src/path_sum/Solution.java)
 111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](./algorithms/src/minimum_depth_of_binary_tree/Solution.java)
