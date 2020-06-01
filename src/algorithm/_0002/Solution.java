@@ -1,5 +1,7 @@
 package algorithm._0002;
 
+import algorithm.common.ListNode;
+
 public class Solution {
     final ListNode fakeFirst = new ListNode(-1);
     ListNode currentNode = fakeFirst;
